@@ -6,40 +6,7 @@ main {
     background-color: lightgray;
     padding: .5rem;
     border-radius: .5rem;
-    height: 25rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-tab {
-    background-color: darkgray;
-    display: inline-block;
-    width: 30%;
-    height: .5rem;
-    border-radius: .5rem;
-}
-
-#tab-0 {
-    background-color: gray;
-}
-
-.tap {
-
-    border: 1px black solid;
-    position: absolute;
-    height: 25rem;
-    width: 5rem;
-}
-
-.left-tap {
-    left: 1rem;
-}
-
-.right-tap {
-    right: 1rem;
+    height: 20rem;
 }
 
 footer {
