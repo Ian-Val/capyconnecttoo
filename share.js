@@ -6,6 +6,14 @@ const shareData = {
 
 const btn = document.querySelector(".share")
 
+btn.addEventListener("touchstart", async () => {
+    try {
+        await navigator.share(shareData);
+    } catch (err) {
+        console.error(err)
+    }
+})
+
 btn.addEventListener("click", async () => {
     try {
         await navigator.share(shareData);
