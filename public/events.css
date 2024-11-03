@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 80vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 1rem;
+    background-color: white;
+}
+
+.btn {
+    height: 2rem;
+    width: 2rem;
+    background-color: gray;
+    border: none;
+    border-radius: 30%;
+}
+
+.btn-lrg {
+    height: 5rem;
+    width: 5rem;
+}

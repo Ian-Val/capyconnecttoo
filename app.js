@@ -28,6 +28,6 @@ app.all('*', (req, res) => {
     res.status(404).send('404 Resource Not Found');
 })
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`Server is listening on port ${port}...`);
 })

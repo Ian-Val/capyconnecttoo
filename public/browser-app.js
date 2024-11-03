@@ -34,7 +34,7 @@ dislike_btn.addEventListener('click', () => {
 async function fetchData(id) {
     info.innerHTML = '...'
     try {
-        const response = await fetch(`http://localhost:5000/api/events/${id}`);
+        const response = await fetch(`./api/events/${id}`);
         const data = await response.json();
         info.innerHTML = `
             <h2>${data.title}</h2>
